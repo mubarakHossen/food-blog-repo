@@ -4,7 +4,7 @@ body{
     padding: 0;
 }
 nav{
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     left: 0;
     width: 100%;
@@ -12,7 +12,6 @@ nav{
     padding: 10px 90px;
     box-sizing: border-box;
     background-color: papayawhip;
-    border-bottom: 1px solid red;
 }
 nav .logo{
     padding: 22px 20px;
@@ -41,7 +40,7 @@ nav ul li a{
 }
 nav ul li a:hover{
     background-color: black;
-    border-radius: 6px;
+    border-radius: 10px;
 }
 h1{
     font-size: 50px;
@@ -71,6 +70,7 @@ span{
     padding: 10px 40px;
     color: aliceblue;
     border-radius:11px;
+    margin-bottom: 15px;
 }
 .md{
     width: 500px;
